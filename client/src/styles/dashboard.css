@@ -1,0 +1,18 @@
+h1 {
+    /* background-color: rebeccapurple; */
+    color: #1c3369;
+    margin-left: 1em;
+    padding: 0.5em;
+}
+
+.user-email {
+    color: #b6c8f1;
+    font-size: 24px;
+}
+
+.delete-button {
+    border-radius: 0.2em;
+    padding: 0.4em;
+    border: none;
+    background-color: #e0dca3;
+}

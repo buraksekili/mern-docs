@@ -1,0 +1,24 @@
+.docs {
+    /* background-color: lightcoral; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    
+}
+
+.doc {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 0.4em;
+    padding: 1em;
+    margin: 1em;
+}
+
+.single-doc {
+    /* color: springgreen;
+    background-color: steelblue; */
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    
+}

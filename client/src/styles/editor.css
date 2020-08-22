@@ -1,0 +1,153 @@
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 4px;
+}
+
+.buttons-bold {
+  background-color: transparent;
+  background-image: url("../assets/bold.svg");
+  background-repeat: no-repeat;
+  background-size: 1.8em;
+  background-position: center;
+  border-left: 0.1em solid #2a3e70;
+  border-top: 0.1em solid #2a3e70;
+  border-bottom: 0.1em solid #2a3e70;
+  border-right: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 1em;
+}
+
+.buttons-italic {
+  background-color: transparent;
+  background-image: url("../assets/italic.svg");
+  background-repeat: no-repeat;
+  background-size: 1.8em;
+  background-position: center;
+  border-left: 0;
+  border-top: 0.1em solid #2a3e70;
+  border-bottom: 0.1em solid #2a3e70;
+  border-right: 0;
+  padding: 1em;
+}
+
+.buttons-code {
+  background-color: transparent;
+  background-image: url("../assets/code.svg");
+  background-repeat: no-repeat;
+  background-size: 1.8em;
+  background-position: center;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0.1em solid #2a3e70;
+  border-bottom: 0.1em solid #2a3e70;
+  padding: 1em;
+}
+
+.buttons-quote {
+  background-color: transparent;
+  background-image: url("../assets/quote.svg");
+  background-repeat: no-repeat;
+  background-size: 1.8em;
+  background-position: center;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0.1em solid #2a3e70;
+  border-bottom: 0.1em solid #2a3e70;
+  padding: 1em;
+}
+
+.buttons-list-num {
+  background-color: transparent;
+  background-image: url("../assets/list_numb.svg");
+  background-repeat: no-repeat;
+  background-size: 1.8em;
+  background-position: center;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0.1em solid #2a3e70;
+  border-bottom: 0.1em solid #2a3e70;
+  padding: 1em;
+}
+
+.buttons-list-bullet {
+  background-color: transparent;
+  background-image: url("../assets/list_bullet.svg");
+  background-repeat: no-repeat;
+  background-size: 1.8em;
+  background-position: center;
+  border-left: 0;
+  border-right: 0.1em solid #2a3e70;
+  border-top: 0.1em solid #2a3e70;
+  border-bottom: 0.1em solid #2a3e70;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 1em;
+}
+
+.buttons-save {
+  margin-left: 8px;
+  padding: 0.4em;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #c4c4c4;
+  border: 0;
+}
+
+.buttons-status-label {
+  margin-left: 4px;
+  padding: 0.4em;
+}
+
+.filename-input {
+  margin-left: 8px;
+  width: 180px;
+  border-radius: 4px;
+  padding: 0.4em;
+  border: 0 solid gray;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #c4c4c4;
+}
+
+.filename-input::-webkit-input-placeholder {
+  color: #a1a1a1;
+}
+
+.filename-input:-ms-input-placeholder {
+  color: #a1a1a1;
+}
+
+.filename-input::-ms-input-placeholder {
+  color: #a1a1a1;
+}
+
+.filename-input::placeholder {
+  color: #a1a1a1;
+}
+
+ul {
+  list-style: none;
+}
+
+ul > li:before {
+  content: "-";
+  padding: 20px;
+}
+
+.editor > div {
+  padding: 5px;
+  background-color: #dfdcdc;
+  padding: 0.8em 0.8em 0.4em 1em;
+  margin: 0.8em 0.8em 0 1em;
+  line-height: 1.5em;
+  border-radius: 4px;
+}
+/*# sourceMappingURL=editor.css.map */
