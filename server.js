@@ -9,7 +9,7 @@ const app = express();
 
 // app.use(cors());
 
-app.use(cors({ credentials: true }));
+// app.use(cors({ credentials: true }));
 app.use(cookieParser());
 // body-parser
 app.use(express.urlencoded({ extended: false }));
