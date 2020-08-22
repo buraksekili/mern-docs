@@ -131,7 +131,7 @@ router.post("/save", auth, async (req, res) => {
             user.documents = user.documents.concat({
                 _id: doc._id,
                 content: doc.content,
-                title
+                title,
             });
         }
         // const doc = new Document({ content: serialized });
@@ -143,15 +143,6 @@ router.post("/save", auth, async (req, res) => {
     } catch (err) {
         console.log(err);
         res.status(400).json({ error: err.message });
-    }
-});
-
-router.get("/users", auth, async (req, res) => {
-    try {
-        const users = await User.find({});
-        res.json({ users });
-    } catch (e) {
-        res.status(500).send();
     }
 });
 
