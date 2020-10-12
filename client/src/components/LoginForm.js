@@ -99,7 +99,6 @@ const LoginForm = ({ history }) => {
                   onClick={() => {
                     setIsLoading(true);
                     setBlurBackground(false);
-                    console.log(linkRef);
                     linkRef.current.style.pointerEvents = "none";
                     loginServer();
                   }}
