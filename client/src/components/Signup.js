@@ -29,7 +29,7 @@ function Signup({ history }) {
     }
 
     axios
-      .post("http://localhost:5000/signup", { email, password })
+      .post("/signup", { email, password })
       .then((res) => {
         if (res.status === 200) {
           setIsLoading(false);
