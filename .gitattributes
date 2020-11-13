@@ -1,4 +1,1 @@
-.sass-cache/
-*.css.map
-*.sass.map
-*.scss.map
+site/* linguist-vendored=false
